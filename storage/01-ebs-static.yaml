@@ -30,7 +30,7 @@ kind: Pod
 metadata:
   name: nginx-static
   labels:
-    purpose: ebs:static
+    purpose: ebs-static
     project: expense
 spec:
   containers:
